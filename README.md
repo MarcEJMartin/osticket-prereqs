@@ -58,7 +58,7 @@ To set up osTicket in IIS, unzip your osTicket-v1.15.8.zip file and move the "up
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/81567bf7-41db-4b41-b20b-c1f726f31c33" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open a web browser and go to http://localhost/osTicket to launch the osTicket setup page, where you’ll enter basic helpdesk details. Then, open HeidiSQL, connect using the MySQL login credentials, and create a new database called osTicket. Return to the browser to complete the installation by entering the database name and credentials, then click “Install Now” to finalize the setup.
