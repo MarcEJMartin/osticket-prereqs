@@ -30,7 +30,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-
 <p>
 <img src="https://github.com/user-attachments/assets/5e8ca262-d8b2-485f-a8ce-99631988ac34" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -40,7 +39,7 @@ To setup osTicket, you first need to enable Internet Information Services (IIS) 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/698e04bc-e1e7-4b76-9ff5-4362b1c5e1b8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To support PHP and MySQL functionality, install the  Microsoft Visual C++ distributable x86 as it’s required by PHP and MySQL to run properly. Download the MySQL Installer. During installation, you’ll be prompted to create login credentials. These credentials are essential for creating and connecting the osTicket database during the web-based setup.
@@ -49,7 +48,7 @@ To support PHP and MySQL functionality, install the  Microsoft Visual C++ distri
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/5dbe6cc6-cf5a-4c11-8db3-240b6e671e8e" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To set up osTicket in IIS, unzip your osTicket-v1.15.8.zip file and move the "upload" folder into C:\inetpub\wwwroot, then rename the folder to "osTicket". Open IIS, browse to the osTicket site, and use PHP Manager to enable required extensions like php_imap.dll, php_intl.dll, and php_opcache.dll. Finally, rename the configuration file to ost-config.php, adjust its permissions by disabling inheritance and granting Everyone full access so osTicket can complete the setup.
